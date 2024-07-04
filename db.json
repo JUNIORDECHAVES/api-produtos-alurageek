@@ -1,16 +1,80 @@
 {
-  "produtos": [
+  "clientes": [
     {
-      "id": "373a",
-      "nome": "filtro de linha com dps",
-      "valor": "55.9",
-      "imagem": "https://images.tcdn.com.br/img/img_prod/1078000/dps_filtro_de_linha_iclamper_energia_5_preto_106213_1_77308c7237b0206650207f8458479359.png"
+      "id": 1,
+      "nome": "João da Silva",
+      "telefone": "123456789",
+      "endereco": "Rua dos Animais, 123"
     },
     {
-      "id": "36ce",
-      "nome": "Teclado Mecânico Gamer Redragon Kama ",
-      "valor": "149.90",
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_904828-MLB50265501650_062022-O.webp"
+      "id": 2,
+      "nome": "Maria Souza",
+      "telefone": "987654321",
+      "endereco": "Avenida dos Pets, 456"
+    }
+  ],
+  "animais": [
+    {
+      "id": 1,
+      "nome": "Rex",
+      "especie": "Cachorro",
+      "raca": "Labrador",
+      "idade": 3,
+      "cliente_id": 1
+    },
+    {
+      "id": 2,
+      "nome": "Mimi",
+      "especie": "Gato",
+      "raca": "Siamês",
+      "idade": 2,
+      "cliente_id": 1
+    },
+    {
+      "id": 3,
+      "nome": "Lola",
+      "especie": "Cachorro",
+      "raca": "Poodle",
+      "idade": 5,
+      "cliente_id": 2
+    },
+    {
+      "id": 4,
+      "nome": "Nina",
+      "especie": "Gato",
+      "raca": "Persa",
+      "idade": 1,
+      "cliente_id": 2
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Ração para cães",
+      "marca": "Premier",
+      "preco": 50.99,
+      "quantidade_estoque": 100
+    },
+    {
+      "id": 2,
+      "nome": "Areia sanitária para gatos",
+      "marca": "Chalesco",
+      "preco": 25.99,
+      "quantidade_estoque": 50
+    }
+  ],
+  "servicos": [
+    {
+      "id": 1,
+      "nome": "Banho e tosa",
+      "preco": 80.0,
+      "duracao_minutos": 120
+    },
+    {
+      "id": 2,
+      "nome": "Consulta veterinária",
+      "preco": 120.0,
+      "duracao_minutos": 60
     }
   ]
 }
